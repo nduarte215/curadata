@@ -1,18 +1,25 @@
 **CuranData: AI Health Coach for Biological Analysis**
+
 **🩺 Project Overview**
+
 CuranData combines Natural Language Processing and Computer Vision to analyze lab reports and biological samples, providing personalized health insights based on functional medicine principles learned through necessity and validated through business experience.
 
 **💼 The Business Case for CuranData**
+
 What 20 Years in Accounting/Admin Taught Me About Health
 Working in corporate environments, I witnessed a consistent pattern of cognitive decline affecting workplace performance:
 
-**Communication breakdown:** Employees unable to articulate thoughts clearly in emails or meetings
+**Communication breakdown:** 
+
+Employees unable to articulate thoughts clearly in emails or meetings
 Learning disabilities: Staff unable to acquire new skills due to cognitive fog
 Emotional dysregulation: Depression and irritability destroying team dynamics
 Memory issues: Forgetfulness impacting accuracy and job performance
 Career stagnation: Cognitive dysfunction preventing professional growth
 
-**The Hidden Cost:** Companies lose $530B annually due to poor employee health, with cognitive dysfunction being a major unrecognized factor.
+**The Hidden Cost:** 
+
+Companies lose $530B annually due to poor employee health, with cognitive dysfunction being a major unrecognized factor.
 🎯 Personal Health Crisis & Discovery
 After having twins in my 20s, I experienced:
 
@@ -20,10 +27,13 @@ PTSD, toxic metal exposure, hormonal imbalances, gut dysfunction
 Severe cognitive decline affecting my own work performance
 Traditional medicine offered pills, not solutions
 
-**The Breakthrough:** Through self-directed functional medicine learning, I discovered that most workplace cognitive issues stem from vitamin D deficiency and other easily correctable biomarker imbalances.
+**The Breakthrough:** 
+
+Through self-directed functional medicine learning, I discovered that most workplace cognitive issues stem from vitamin D deficiency and other easily correctable biomarker imbalances.
 The Results: Complete cognitive restoration using functional approach, documented with before/after lab results.
 
 **🚀 Unique Value Proposition**
+
 Business Experience Meets Health Expertise
 
 20 years witnessing health impact on productivity and business operations
