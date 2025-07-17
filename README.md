@@ -137,14 +137,46 @@ Early Detection: Identify employees at risk for cognitive decline
 Preventive Intervention: Address vitamin D deficiency before it impacts performance
 ROI Tracking: Measure productivity improvements post-optimization
 Skills Development: Restore learning capacity through biomarker correction
-**
-Individual Optimization**
+
+**Individual Optimization**
 
 Workplace Performance: Improve communication, memory, and learning ability
 Career Advancement: Remove cognitive barriers to skill acquisition
 Energy Restoration: Eliminate brain fog and mental fatigue
 Emotional Regulation: Reduce depression and irritability through optimization
-**
+
+🎯 Healthcare Data Analyst Skills Demonstration
+- Multi-source data analysis with employee health & claims integration
+- JIRA/Agile user stories with acceptance criteria & sprint planning
+- Advanced SQL queries for healthcare analytics & ROI calculations
+- JAD session frameworks for stakeholder requirement gathering
+
+📊 Key Features:
+- Biomarker optimization analysis (68% workforce vitamin D deficiency)
+- Predictive risk modeling for high-cost health events
+- Executive dashboards with $485K cost savings identification
+- Department-specific health trend analysis
+
+🛠️ Technical Implementation:
+- Python-based multi-source data integration
+- SQLite database with healthcare schema design
+- Complex SQL queries with CTEs and window functions
+- Agile project structure with 4 epics, 47 story points
+
+💼 Business Value:
+- 25% cognitive performance improvement target
+- 15% sick day reduction through intervention programs
+- 35% prevention of high-cost health events
+- $890 annual claims reduction per 10ng/mL vitamin D increase
+
+**Ready for healthcare analytics team contribution with demonstrated
+expertise in functional medicine, biomarker analysis, and data-driven
+wellness program ROI optimization.**
+
+
+**Skills: ** 
+"Healthcare Analytics | SQL | Python | Agile/JIRA | Biomarker Analysis"
+
 📞 Contact & Brand**
 Student: Nasly Duarte 
 Girlgoneverde Brand - Think Like a Healer Initiative
