@@ -1,186 +1,235 @@
-**CuranData: AI Health Coach for Biological Analysis**
+# CuraData: AI Health Coach for Biological Analysis
 
-**🩺 Project Overview**
+**Final Project: NLP & Computer Vision Course - CAI2840C**  
+**Student:** Nasly Duarte | **Institution:** MDC Summer 2025  
+**Brand:** Girlgoneverde - Think Like a Healer Initiative
 
-CuranData combines Natural Language Processing and Computer Vision to analyze lab reports and biological samples, providing personalized health insights based on functional medicine principles learned through necessity and validated through business experience.
+---
 
-**💼 The Business Case for CuranData**
+## 🔍 Problem Statement
 
-What 20 Years in Accounting/Admin Taught Me About Health
-Working in corporate environments, I witnessed a consistent pattern of cognitive decline affecting workplace performance:
+### Primary Problem  
+The American workforce suffers from a **$530 billion annual productivity crisis** caused by **undiagnosed cognitive dysfunction** linked to correctable biomarker imbalances. Current healthcare systems treat symptoms with pharmaceuticals rather than addressing root causes.
 
-**Communication breakdown:** 
+### Specific Issues Identified  
+- **Communication Breakdown**: Inability to articulate ideas clearly  
+- **Learning Disabilities**: Cognitive fog affecting skill acquisition  
+- **Emotional Dysregulation**: Depression and irritability harming team culture  
+- **Memory Impairment**: Forgetfulness reducing accuracy and performance  
+- **Career Stagnation**: Poor cognition blocking professional growth
 
-Employees unable to articulate thoughts clearly in emails or meetings
-Learning disabilities: Staff unable to acquire new skills due to cognitive fog
-Emotional dysregulation: Depression and irritability destroying team dynamics
-Memory issues: Forgetfulness impacting accuracy and job performance
-Career stagnation: Cognitive dysfunction preventing professional growth
+### The Gap in Current Solutions  
+- "Normal" lab ranges don't reflect **optimal cognitive health**  
+- Workplace wellness focuses on **fitness**, not biomarkers  
+- No AI tools exist for **lab-based cognitive optimization**  
+- Functional medicine is not **accessible to professionals**
 
-**The Hidden Cost:** 
+### Business Impact  
+Companies unknowingly lose productivity due to correctable deficiencies (e.g., **Vitamin D, cholesterol, immune markers**) that affect cognitive performance.
 
-Companies lose $530B annually due to poor employee health, with cognitive dysfunction being a major unrecognized factor.
-🎯 Personal Health Crisis & Discovery
-After having twins in my 20s, I experienced:
+---
 
-PTSD, toxic metal exposure, hormonal imbalances, gut dysfunction
-Severe cognitive decline affecting my own work performance
-Traditional medicine offered pills, not solutions
+## 🧩 Stakeholder Map
 
-**The Breakthrough:** 
+### Primary Stakeholders
+- **Corporate HR Departments**  
+  Role: Wellness program implementation  
+  Interest: Lower costs, boost productivity  
+  Influence: **High**
 
-Through self-directed functional medicine learning, I discovered that most workplace cognitive issues stem from vitamin D deficiency and other easily correctable biomarker imbalances.
-The Results: Complete cognitive restoration using functional approach, documented with before/after lab results.
+- **Working Professionals (End Users)**  
+  Role: Direct users of CuraData  
+  Interest: Better performance, improved life quality  
+  Influence: **Medium**
 
-**🚀 Unique Value Proposition**
+- **Functional Medicine Practitioners**  
+  Role: Clinical advisors  
+  Interest: Spread evidence-based healing  
+  Influence: **High**
 
-Business Experience Meets Health Expertise
+### Secondary Stakeholders
+- **Corporate Executives/C-Suite**  
+  Role: Budget and strategy decisions  
+  Interest: ROI, optimized workforce  
+  Influence: **Very High**
 
-20 years witnessing health impact on productivity and business operations
-Personal transformation from cognitive dysfunction to optimization
-Proven framework that restored cognitive function in complex health crisis
-ROI understanding of preventive vs. reactive healthcare costs
+- **Healthcare Insurance Providers**  
+  Role: Support cost-effective solutions  
+  Interest: Reduced claims  
+  Influence: **Medium**
 
-**Technical Innovation**
+- **IT Departments**  
+  Role: Security and integration  
+  Interest: Data compliance  
+  Influence: **Medium**
 
-Precise Analysis: Exact target values for immune markers (not ranges)
-Gender-Specific: Different optimal ranges for males vs females
-Cognitive Focus: Vitamin D optimization for brain function
-Business Application: Workplace wellness through biomarker optimization
+### Supporting Stakeholders
+- **Academic Institutions**  
+  Role: Research and development  
+  Influence: **Low**
 
-**🔬 Technical Components**
-NLP Component
+- **Laboratory Partners**  
+  Role: Data integration  
+  Influence: **Low**
 
-Lab report PDF analysis with OCR
-Biomarker extraction (5 key cognitive health markers)
-Functional range analysis vs. traditional "normal" ranges
-Personalized recommendations based on proven protocols
+## Diagram 
 
-**Computer Vision Component**
-
-Bristol Stool Scale classification for gut-brain connection
-Health pattern detection in biological samples
-Integration with bloodwork for comprehensive cognitive health assessment
-
-**Integration Engine**
-
-Combined NLP + CV insights
-Correlation analysis between gut health and cognitive function
-ROI-focused recommendations for workplace wellness programs
-
-**📊 Core Biomarkers for Cognitive Function**
-The 5 Key Markers That Impact Workplace Performance:
-
-Vitamin D (Optimal: 50+ vs Lab: 30+) - Primary cognitive function marker
-Cholesterol Pattern (Gender-specific: F≤200, M≤300) - Brain health indicator
-Immune System (WBC=6, Neutrophils=60%, Lymphocytes=30%) - Inflammation affecting cognition
-Iron Panel (Ferritin, Saturation, TIBC) - Energy and mental clarity
-Glucose/HbA1c (≤90/≤5.0) - Brain fuel optimization
-
-**Why These Specific Ranges Matter:
-**
-Vitamin D at 50+: Restores ability to learn new skills, improves communication
-Precise immune targets: Detects low-grade infections causing brain fog
-Cholesterol patterns: Supports brain health and hormone production
-Iron optimization: Eliminates fatigue affecting cognitive performance
-
-**💊 ABCDE Supplement Protocol**
-Core Philosophy: "Everyone needs these supplements due to soil depletion - our bodies cannot get optimal nutrition from food alone"
-Daily Cognitive Optimization Protocol:
-
-A: 25,000 IU daily (75,000 when sick) - Vision and brain health
-B: B50 Complex + B12 sublingual - Neurotransmitter production
-C: Ascorbic acid until loose stool - Immune support for clear thinking
-D: 5000 IU D3 daily - PRIMARY cognitive function support
-E: 400 IU mixed tocopherols - Brain protection
-
-**📈 Current Status**
-
-✅ Phase 1: Business Framework & Health Expertise Documentation
-✅ Core Health Analysis Implementation (Working Code)
-🔄 Phase 2: NLP Component Development
-⏳ Phase 3: Computer Vision Component
-⏳ Phase 4: Corporate Wellness Integration
-⏳ Phase 5: ROI Validation & Presentation
-
-**🏗️ Recent Updates**
-
-Added working health analysis framework with proven ABCDE system
-Implemented precise immune system analysis for cognitive health
-Added vitamin D optimization protocols based on business observations
-Created validation testing showing cognitive improvement correlation
-Documented 20-year business case for workplace health optimization
-
-**🛠️ Technology Stack**
-
-Languages: Python
-NLP: spaCy, NLTK, Tesseract OCR for lab report processing
-Computer Vision: OpenCV, TensorFlow for biological sample analysis
-Development: Google Colab, Jupyter Notebooks
-Data Processing: Pandas, NumPy
-Business Intelligence: ROI calculations and productivity metrics
-
-**📁 Repository Structure**
-CuranData/
-├── src/                           # Core health analysis framework
-│   └── health_analyzer.py         # Working implementation of ABCDE system
-├── docs/                          # Business case and health documentation
-│   ├── phase1_discovery.md        # Complete business framework
-│   └── test_health_framework.py   # Validation testing
-├── notebooks/                     # Development and demonstration
-│   └── CuranData_Development.ipynb # Working prototype
-└── README.md                      # This comprehensive overview
-**💼 Business Applications
-Corporate Wellness Programs**
-
-Early Detection: Identify employees at risk for cognitive decline
-Preventive Intervention: Address vitamin D deficiency before it impacts performance
-ROI Tracking: Measure productivity improvements post-optimization
-Skills Development: Restore learning capacity through biomarker correction
-
-**Individual Optimization**
-
-Workplace Performance: Improve communication, memory, and learning ability
-Career Advancement: Remove cognitive barriers to skill acquisition
-Energy Restoration: Eliminate brain fog and mental fatigue
-Emotional Regulation: Reduce depression and irritability through optimization
-
-🎯 Healthcare Data Analyst Skills Demonstration
-- Multi-source data analysis with employee health & claims integration
-- JIRA/Agile user stories with acceptance criteria & sprint planning
-- Advanced SQL queries for healthcare analytics & ROI calculations
-- JAD session frameworks for stakeholder requirement gathering
-
-📊 Key Features:
-- Biomarker optimization analysis (68% workforce vitamin D deficiency)
-- Predictive risk modeling for high-cost health events
-- Executive dashboards with $485K cost savings identification
-- Department-specific health trend analysis
-
-🛠️ Technical Implementation:
-- Python-based multi-source data integration
-- SQLite database with healthcare schema design
-- Complex SQL queries with CTEs and window functions
-- Agile project structure with 4 epics, 47 story points
-
-💼 Business Value:
-- 25% cognitive performance improvement target
-- 15% sick day reduction through intervention programs
-- 35% prevention of high-cost health events
-- $890 annual claims reduction per 10ng/mL vitamin D increase
-
-**Ready for healthcare analytics team contribution with demonstrated
-expertise in functional medicine, biomarker analysis, and data-driven
-wellness program ROI optimization.**
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/c754e872-f970-4ba5-94e1-e871d26b14d9" />
 
 
-**Skills: ** 
-"Healthcare Analytics | SQL | Python | Agile/JIRA | Biomarker Analysis"
+## 🎯 SMART Goals
 
-📞 Contact & Brand**
-Student: Nasly Duarte 
-Girlgoneverde Brand - Think Like a Healer Initiative
-"From Accountant to Healer: Scaling Personal Health Transformation Through AI"
-Mission: Democratize cognitive health optimization for working professionals through functional medicine principles and AI technology.
+### Goal 1: Core Analysis Engine Development
+- **Specific**: Extract 5 biomarkers (Vitamin D, Cholesterol, Immune markers, Iron, Glucose)  
+- **Measurable**: 95% format compatibility, 90% accuracy  
+- **Achievable**: Using Tesseract, spaCy, NLTK  
+- **Relevant**: Solves biomarker analysis gap  
+- **Time-bound**: Week 8
 
-This project represents the intersection of real business experience, personal health transformation, and cutting-edge AI technology to solve the $530B workplace productivity crisis.
+### Goal 2: Computer Vision Component
+- **Specific**: Classify stool samples by Bristol Scale  
+- **Measurable**: 85% accuracy across 7 types  
+- **Achievable**: Using OpenCV, TensorFlow  
+- **Relevant**: Gut health = brain health  
+- **Time-bound**: Week 10
+
+### Goal 3: Interactive User Interface
+- **Specific**: Build Streamlit chatbot for file uploads  
+- **Measurable**: Upload + results in <30 seconds  
+- **Achievable**: Using Streamlit framework  
+- **Relevant**: Democratizes access to insights  
+- **Time-bound**: Week 12
+
+### Goal 4: Business Validation
+- **Specific**: Case study-based ROI validation  
+- **Measurable**: 3 documented case studies  
+- **Achievable**: Based on real user results  
+- **Relevant**: Supports corporate adoption  
+- **Time-bound**: Week 14 (presentation)
+
+### Goal 5: Technical Documentation
+- **Specific**: Document system architecture and APIs  
+- **Measurable**: Covers 100% of components  
+- **Achievable**: Based on working code  
+- **Relevant**: Enables handoff and scaling  
+- **Time-bound**: Week 15 (submission)
+
+---
+
+## 🛠️ Tools and Technology to Be Used
+
+### Programming Languages
+- **Python**: Core development
+
+### Natural Language Processing (NLP)
+- **spaCy**: Biomarker extraction  
+- **NLTK**: Preprocessing and tokenization  
+- **Tesseract OCR**: PDF lab report conversion
+
+### Computer Vision (CV)
+- **OpenCV**: Preprocessing biological samples  
+- **TensorFlow**: Stool classification model  
+- **PIL**: Image formatting
+
+### Data Processing & Analysis
+- **Pandas, NumPy**: Data wrangling  
+- **Matplotlib, Seaborn**: Visualizations
+
+### Web Interface & Deployment
+- **Streamlit**: User interface  
+- **Gradio**: Demo deployment
+
+### Development Environment
+- **Google Colab, Jupyter**: Notebook development
+
+### File Processing
+- **PyPDF2, Pillow**: PDF and image processing
+
+### Database & Storage
+- **SQLite**: Local user data  
+- **JSON**: Configuration and API responses
+
+### Version Control
+- **Git, GitHub**: Versioning and collaboration
+
+### Future Integration
+- **FastAPI**: API for enterprise deployment  
+- **Docker**: Scalable containerization
+
+---
+
+## 🛠️ Tech Stack
+
+| Category            | Tools / Libraries                           |
+|---------------------|---------------------------------------------|
+| Programming         | Python                                      |
+| NLP                 | Tesseract, spaCy, NLTK                      |
+| Computer Vision     | OpenCV, TensorFlow, PIL                     |
+| Data Analysis       | Pandas, NumPy, Matplotlib, Seaborn          |
+| UI / Deployment     | Streamlit, Firebase, Render, Gradio         |
+| Storage/Auth        | Firebase Firestore & Auth                   |
+| Version Control     | Git, GitHub                                 |
+| Future Integration  | FastAPI, Docker                             |
+
+---
+
+## 📁 Repository Structure
+('''
+curadata/
+├── .gitignore # Ignore Python/cache files
+├── README.md # Project overview and setup
+├── LICENSE # License for reuse
+├── requirements.txt # List of Python dependencies
+├── planner.md # Task tracker and project planner
+│
+├── notebooks/ # Development and analysis notebooks
+│ ├── lab_parser.ipynb # NLP-based biomarker extraction
+│ ├── stool_classifier.ipynb # CV model for Bristol Stool classification
+│ └── exploratory_analysis.ipynb # Initial exploration
+│
+├── ui/ # Streamlit app interface
+│ └── app.py # Main Streamlit UI file
+│
+├── src/ # Core backend Python modules
+│ ├── ocr_utils.py # OCR using Tesseract
+│ ├── nlp_utils.py # NLP parsing logic
+│ ├── cv_utils.py # CV preprocessing and classification
+│ └── health_engine.py # ABCDE supplement recommendation logic
+│
+├── data/ # Sample data files
+│ ├── samples/ # Example PDFs, images
+│ └── datasets/ # Optional stool or biomarker datasets
+│
+├── assets/ # Visual assets for docs and UI
+│ ├── architecture.png # Architecture diagram
+│ └── slide_assets/ # Icons and images for slide deck
+│
+├── docs/ # Technical and user documentation
+│ ├── executive_summary.md # Summary for stakeholders
+│ ├── architecture.md # System architecture explanation
+│ └── user_guide.md # Instructions for users
+│
+├── tests/ # Unit and integration tests
+│ └── test_lab_parser.py # Test cases for lab parsing functions
+│
+└── .streamlit/ # Streamlit app configuration
+└── config.toml # Theme and layout settings
+''')
+
+
+---
+
+## ✅ Success Metrics
+
+- **Technical**: 90%+ biomarker accuracy  
+- **User Experience**: <30s feedback loop  
+- **Business**: Case studies showing improved performance  
+- **Academic**: Demonstrates NLP + CV integration  
+- **Innovation**: Merges AI with functional medicine
+
+---
+
+> _"From Accountant to Healer: Scaling Personal Health Transformation Through AI"_  
+**Mission:** Democratize cognitive health optimization for working professionals using functional medicine and AI.
+
+
