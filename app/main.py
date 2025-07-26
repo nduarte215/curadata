@@ -1,3 +1,21 @@
+from pydantic import BaseModel
+
+class JournalEntry(BaseModel):
+    title: str
+    content: str
+    timestamp: str  # or datetime if you want automatic time parsing
+
+from fastapi import FastAPI
+from fastapi.responses import HTMLResponse
+
+app = FastAPI()
+
+@app.post("/save_journal_entry")
+async def save_journal_entry(entry: JournalEntry):
+    # You can access the data with entry.title, entry.content, etc.
+    return {"message": "Entry saved!", "entry": entry.dict()}
+
+
 from fastapi.responses import HTMLResponse
 from fastapi import FastAPI
 from fastapi.responses import HTMLResponse
