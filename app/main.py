@@ -1,3 +1,11 @@
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/test")
+def test():
+    return {"message": "working"}
+
 @app.get("/test")
 async def test_route():
     return {"message": "Test route works!", "status": "success"}
